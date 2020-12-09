@@ -1,0 +1,12 @@
+{
+    "name": "slack bot",
+    "dockerFile": "Dockerfile",
+    "appPort": 3000,
+    "extensions": [
+      "ms-vscode.vscode-typescript-tslint-plugin",
+      "visualstudioexptteam.vscodeintellicode"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    }
+}
